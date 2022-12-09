@@ -2,34 +2,44 @@
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-const int SIZE = 8;
-const int LEFT_RANGE = 100;
-const int RIGHT_RANGE = 999;
+Console.Clear();
 
-int[] array = new int[SIZE];
-
-
-int[] FillArrayWithRandomNumbers(int size, int leftRange, int rightRange)
+int ThreeNumber(string str)
 {
-    Random rand = new Random();
+    System.Console.WriteLine(str);
+    int number = Convert.ToInt32(Console.ReadLine());
+    return number;
+}
+
+int[] AddArrayWithRundomNumbers(int size, int leftRange, int rightRange)
+{
     int[] arr = new int[size];
-    for( int i = 0 ; i<size; i++)
-    { 
-        arr[i] = rand.Next(leftRange, rightRange + 1); // [100; 1000)
+    Random rand =  new Random();
+    for (int i = 0; i < size; i++)
+    {
+        arr[i] = rand.Next(leftRange, rightRange + 1);
     }
     return arr;
 }
 
-int number = Convert.ToInt32(Console.ReadLine());
-int count = 2;
-
-while (count <= number)
+int SomeNumber(int[] arr)
 {
-    Console.Write(count + " ");
-    count = count + 2;
+    int count = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if(arr[i] % 2 == 0) 
+        {
+            count++;
+        }
+    }
+    return count;
 }
 
-array = FillArrayWithRandomNumbers(8, 100, 999);
-Console.WriteLine('[' + string.Join(", ", array) + ']');
 
-Console.WriteLine($"Количество чётных чисел в массиве: ");
+const int leftRange = 100;
+const int rightRange = 999;
+int lenghtArr = ThreeNumber("Введите размер масива");
+int[] arrey = AddArrayWithRundomNumbers(lenghtArr, leftRange, rightRange);
+System.Console.WriteLine('[' + string.Join(", ", arrey) + ']');
+int even = SomeNumber(arrey);
+System.Console.WriteLine($"Количество чётных чисел в массиве: - {even}");
