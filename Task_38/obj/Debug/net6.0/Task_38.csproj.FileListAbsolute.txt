@@ -3,3 +3,13 @@ E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\D
 E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\Task_38.AssemblyInfoInputs.cache
 E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\Task_38.AssemblyInfo.cs
 E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\Task_38.csproj.CoreCompileInputs.cache
+E:\Обучение\Программирование\C#\Homework_5\Task_38\bin\Debug\net6.0\Task_38.exe
+E:\Обучение\Программирование\C#\Homework_5\Task_38\bin\Debug\net6.0\Task_38.deps.json
+E:\Обучение\Программирование\C#\Homework_5\Task_38\bin\Debug\net6.0\Task_38.runtimeconfig.json
+E:\Обучение\Программирование\C#\Homework_5\Task_38\bin\Debug\net6.0\Task_38.dll
+E:\Обучение\Программирование\C#\Homework_5\Task_38\bin\Debug\net6.0\Task_38.pdb
+E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\Task_38.dll
+E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\refint\Task_38.dll
+E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\Task_38.pdb
+E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\Task_38.genruntimeconfig.cache
+E:\Обучение\Программирование\C#\Homework_5\Task_38\obj\Debug\net6.0\ref\Task_38.dll
